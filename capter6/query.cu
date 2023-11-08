@@ -1,4 +1,4 @@
-#include "common/error.cuh"
+#include "../common/error.cuh"
 #include <stdlib.h>
 
 

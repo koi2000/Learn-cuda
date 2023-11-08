@@ -26,7 +26,7 @@ int main()
     printf("nvcc: hello world!\n");
 
     const dim3 block_size(2, 4);
-    hell_from__gpu<<<1, block_size>>>();
+    hell_from__gpu<<<2, block_size>>>();
     cudaDeviceSynchronize(); // 同步主机和设备，否则无法输出字符串。
 
     return 0;
